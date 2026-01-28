@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="w-full bg-primary-color text-white 
       p-4 flex flex-col gap-6 items-center
     ">
-      <div className="flex flex-col w-2/3 gap-6">
+      <div className="flex flex-col w-2/3 gap-6 max-w-4xl">
 
         <div className="flex flex-col w-full md:flex-row md:justify-evenly gap-6 md:gap-0">
 

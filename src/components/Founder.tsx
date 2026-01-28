@@ -8,18 +8,18 @@ const Founder = () => {
       lg:flex-row-reverse lg:justify-evenly
       gap-8 lg:gap-12 lg:py-20
     ">
-
-      <div className="flex flex-col justify-center max-w-2xl lg:text-left">
-        <h1 className="text-2xl lg:text-4xl font-bold mb-6 text-center">
-          Conheça a nossa fundadora!
-        </h1>
+      <div className="flex flex-col justify-center max-w-2xl lg:text-left items-center b">
+        <h2 className="text-2xl lg:text-4xl font-bold mb-6 text-center">
+          Conheça nossa fundadora Germana Soares!
+        </h2>
+        <p className="text-sm lg:text-base leading-relaxed text-center max-w-lg mx-auto lg:mx-0 mb-2">
+          Pernambucana de 34 anos, Germana transformou a maternidade em missão pela inclusão após o nascimento de Guilherme com microcefalia pela Zika. Mãe de três filhos com deficiências e vivendo com fibromialgia, fundou a UMA-PE (atende 470 crianças) e co-fundou UniZika Brasil (1.800 famílias).
+        </p>
+        <p className="text-sm lg:text-base leading-relaxed text-center max-w-lg mx-auto lg:mx-0 mb-2">
+          Líder atuante, construiu diretrizes com UNICEF, influencia políticas públicas e recebeu prêmios como Empreendedor Social <a className="text-blue-500 underline" href="https://www1.folha.uol.com.br/empreendedorsocial/2018/11/associacao-de-maes-busca-direitos-de-criancas-com-sindrome-do-virus-da-zika.shtml" target="_blank">(Folha)</a> e reconhecimentos de Oxford, UnB e ALEPE. Sua luta derruba preconceitos e promove empatia coletiva.
+        </p>
         <p className="text-sm lg:text-base leading-relaxed text-center max-w-lg mx-auto lg:mx-0">
-          Somos um movimento dedicado à defesa dos direitos de crianças e mães
-          afetadas pela Síndrome Congênita do Zika Vírus. Nosso compromisso é
-          garantir acesso à saúde, educação, inclusão e apoio social para todas
-          as famílias impactadas. Acreditamos na força da união e da empatia
-          para transformar realidades, promover dignidade e construir um futuro
-          com mais justiça e esperança.
+          "É uma luta coletiva pela dignidade e direitos das famílias."
         </p>
       </div>
 
@@ -29,7 +29,7 @@ const Founder = () => {
           shadow-2xl
         "
         src="founder.jpg"
-        alt="image founder"
+        alt="Germana Soares, fundadora da UMA-PE e UniZika Brasil[file:2]"
       />
 
       <Line />
