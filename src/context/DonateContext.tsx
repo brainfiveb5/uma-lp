@@ -30,4 +30,5 @@ export const useDonate = () => {
   const context = useContext(DonateContext);
   if (!context) throw new Error('useDonate deve ser usado dentro de DonateProvider');
   return context;
+  
 };

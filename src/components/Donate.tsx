@@ -26,11 +26,10 @@ const Donate = () => {
 
   return (
     <div className={`
-      w-full h-[17%] fixed z-50 bg-white bottom-0 rounded-t-2xl shadow-2xl border-t border-gray-300 p-5
+      w-full h-[24%] fixed z-50 bg-white bottom-0 rounded-t-2xl shadow-2xl border-t border-gray-300 p-5
       transition-all duration-500 ease-in-out
       ${isVisible ? 'translate-y-0 opacity-95 visible' : 'translate-y-full opacity-0 invisible'}
-      md:top-4 md:w-[30%] md:rounded-l-2xl md:rounded-t-none md: right-0
-    `}>
+      md:top-4 md:w-[30%] md:rounded-l-2xl md:rounded-t-none md: right-0`}>
       <div className="flex justify-end cursor-pointer hover:text-red-500" onClick={hideDonate}>
         X
       </div>
