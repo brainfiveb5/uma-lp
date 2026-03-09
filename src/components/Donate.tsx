@@ -26,10 +26,10 @@ const Donate = () => {
 
   return (
     <div className={`
-      w-full h-[24%] fixed z-50 bg-white bottom-0 rounded-t-2xl shadow-2xl border-t border-gray-300 p-5
+      w-full md:h-[20%] h-[24%] fixed z-50 bg-white bottom-0 rounded-t-2xl shadow-2xl border-t border-gray-300 p-5
       transition-all duration-500 ease-in-out
       ${isVisible ? 'translate-y-0 opacity-95 visible' : 'translate-y-full opacity-0 invisible'}
-      md:top-4 md:w-[30%] md:rounded-l-2xl md:rounded-t-none md: right-0`}>
+      md:top-4 md:w-[30%] md:rounded-l-2xl md:rounded-t-none md: right-0 j`}>
       <div className="flex justify-end cursor-pointer hover:text-red-500" onClick={hideDonate}>
         X
       </div>
@@ -40,11 +40,11 @@ const Donate = () => {
           <span>Pix:</span>
         </div>
 
-        <div className='flex justify-center w-full'>
+        <div className='flex justify-center w-full '>
           <div className="border p-2 rounded-l-lg w-[70%]">CNPJ: 25.088.420.0001-00</div>
           <button 
             onClick={copyCNPJ}
-            className="w-[30%] border border-black p-2 bg-primary-color flex items-center justify-center gap-1 text-white rounded-r-lg shadow-2xl hover:bg-second-color transition-colors text-sm"
+            className="w-[30%] border border-black p-2 bg-primary-color flex items-center justify-center gap-1 text-white rounded-r-lg shadow-2xl hover:bg-second-color transition-colors text-sm cursor-pointer"
             disabled={copied}
           >
             <img width={20} src="copy.svg" alt="Copy button" /> 
