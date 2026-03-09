@@ -21,15 +21,6 @@ const Footer = () => {
               </nav>
             </div>
 
-            <div className="">
-              <h2 className="text-xl">Redes:</h2>
-              <nav className="flex gap-2">
-                <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/"><img className="w-4" src="insta.svg" alt="" /></a>
-                <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/"><img className="w-4" src="insta.svg" alt="" /></a>
-                <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/"><img className="w-4" src="insta.svg" alt="" /></a>
-              </nav>
-            </div>
-
             <div>
               <h2 className="text-xl ">Informações:</h2>
               <nav className="flex flex-col text-sm gap-1 underline">

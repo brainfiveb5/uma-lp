@@ -8,14 +8,8 @@ const Contacts = () => {
         <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/" target="_blank">
           <img src="insta.svg" alt="Instagram" />
         </a>
-        <a href="" target="_blank">
-          <img src="facebook.svg" alt="Facebook" />
-        </a>
-        <a href="" target="_blank">
+        <a href="https://api.whatsapp.com/message/PDIGTPNDXRIME1?autoload=1&app_absent=0" target="_blank">
           <img src="whats.svg" alt="Whatsapp" />
-        </a>
-        <a href="" target="_blank">
-          <img src="email.svg" alt="Email" />
         </a>
       </nav>
     </section>
